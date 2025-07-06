@@ -1,0 +1,15 @@
+{
+  "short_name": "Ecommerce",
+  "name": "MERN Stack E-commerce Website",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+} 
