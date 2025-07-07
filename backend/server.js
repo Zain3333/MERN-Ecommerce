@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? [process.env.FRONTEND_URL, 'https://your-frontend-app.onrender.com']
+    ? [process.env.FRONTEND_URL, 'https://your-frontend-app.onrender.com', 'https://mern-ecommerce-cyan-psi.vercel.app']
     : 'http://localhost:3000',
   credentials: true
 }));
